@@ -1,0 +1,19 @@
+[package]
+name = "batman"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-2.0"
+description = "A Environment Variable Manager."
+repository = "https://github.com/ForTheCommunity/batman"
+authors = ["https://github.com/ForTheCommunity"]
+
+[dependencies]
+clap = { version = "4.5.11", features = ["derive"] }
+log = "0.4.22"
+env_logger = "0.11.5"
+rusqlite = "0.32.1"
+dirs = "5.0.1"
+colored = "2.1.0"
+chrono = "0.4.38"
+tabled = "0.15.0"
+
